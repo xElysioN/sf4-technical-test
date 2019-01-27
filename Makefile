@@ -102,7 +102,7 @@ lint-twig:
 
 # Execute travis tests
 .PHONY: travis
-travis: php-cs-dry lint-twig lint-yaml security-check composer-validate schema-validate behat
+travis: php-cs-dry lint-twig lint-yaml security-check composer-validate schema-validate
 
 # Load data fixtures to your database.
 .PHONY: fixtures
@@ -133,8 +133,6 @@ migration-diff:
 # Copy all .dist files to base files.
 .PHONY: undist
 undist:
-	cp behat.yml.dist behat.yml
-	cp .env.dist .env
 	cp .php_cs.dist .php_cs
 	cp phpunit.xml.dist phpunit.xml
 
