@@ -1,4 +1,6 @@
 {
+    "name": "xelysion/sf4-technical-test",
+    "description": "StadLine Technical Test",
     "type": "project",
     "license": "proprietary",
     "require": {
