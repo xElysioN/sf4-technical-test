@@ -1,0 +1,6 @@
+comment:
+    repository:
+        blank: 'Veuillez ne pas laisser le repository vide.'
+    too_short: 'Votre commentaire est trop court ({ limit } caractères minimum)'
+    too_long: 'Votre commentaire est trop long ({ limit } caractères maximum'
+    blank: 'Veuillez ne pas laisser votre commentaire vide.'
