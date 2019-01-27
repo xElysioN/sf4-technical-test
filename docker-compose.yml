@@ -42,5 +42,13 @@ services:
     ports:
       - '8081:8080'
 
+  encore:
+    build:
+      context: 'docker/encore'
+    volumes:
+      - './:/usr/src/app'
+    ports:
+      - "8080:8080"
+
 volumes:
   db-data:
