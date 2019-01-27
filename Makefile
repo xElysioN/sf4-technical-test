@@ -150,8 +150,3 @@ schema-update:
 .PHONY: schema-validate
 schema-validate:
 	$(VAR_CONSOLE) doctrine:schema:validate --skip-sync --no-interaction
-
-# Executes behat test
-.PHONY: behat
-behat:
-	$(VAR_PHP_CONTAINER) php bin/behat $(ARG)
